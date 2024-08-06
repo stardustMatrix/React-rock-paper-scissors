@@ -8,8 +8,7 @@ function App() {
   const [computerPoints, setComputerPoints] = useState(0)
   const [turnResult, setTurnResult] = useState(null)
   const [result, setResult] = useState("let's see who wins")
-  const [gameOver, setGameOver] = useState(false)
-
+  const [gameOver, setGameOver] = useState(false);
 
   const choices = ['rock', 'paper', 'scissors']
 
